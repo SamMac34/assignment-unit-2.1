@@ -1,13 +1,13 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'Sam';
-console.log( 'First Name:', firstName );
+console.log( 'First name:', firstName );
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'McCauley';
-console.log( 'Last Name:', lastName );
+console.log( 'Last name:', lastName );
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-let fullName = firstName + lastName;
+let fullName = 'Sam McCauley';
 // 4 - Console log the value of `fullName`
 console.log( 'Full name:', fullName );
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
@@ -71,6 +71,16 @@ else{
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
+let mostPets;
+
+if( pets >= friendsPets ) {
+    mostPets = pets;
+    console.log( 'Most pets:', mostPets);
+}
+else if( friendsPets > pets ) {
+    mostPets = friendsPets;
+    console.log( 'Most pets:', mostPets);
+}
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
